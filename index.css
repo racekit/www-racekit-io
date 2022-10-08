@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100vh;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.subheader {
+  color: #fff;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+
+a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
